@@ -54,7 +54,14 @@ img.profile{
     padding: 1rem;
 
 }
-
+@media only screen and (max-width: 815px) {
+    img.profile{
+        height: 50vh;
+        max-width: 100%;
+        padding: 1rem;
+    
+    }  
+}
 .right-hero-container{
     max-width: 500px;
     padding: 5rem 2rem;
